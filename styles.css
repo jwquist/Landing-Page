@@ -21,6 +21,10 @@
     margin-top:2%;
     margin-bottom:2%;
 }
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .link {
     font-size: 16px;
     display:flex;
@@ -46,6 +50,7 @@
 
 .left {
     flex-direction: column;
+    margin-right: auto;
     
 }
 
@@ -65,7 +70,7 @@
 .secondary {
     font-size:18px;
 }
-button{
+.body1 button{
     border-color:#3882F6;
     border-radius:8px;
     background-color: #3882F6;
@@ -88,9 +93,73 @@ img {
     justify-content: center;
 }
 
+.pic {
+    text-align: center;
+}
+
 .images {
     padding-left:5%;
     padding-right:5%;
     display:flex;
     justify-content: space-between;
+}
+
+.body3 {
+    background-color: #E5E7EB;
+    padding: 15%;
+}
+
+.author {
+    margin-top:0;
+    text-align: right;
+    font-weight: bold;
+}
+.quote {
+    font-size: 36px;
+    display:flex;
+    justify-content: center;
+}
+
+.body4 {
+    background-color:white;
+    display:flex;
+    justify-content: center;
+}
+
+.call {
+    margin:5%;
+    border-radius: 20px;
+    width:80%;
+    padding:6%;
+    background-color: #3882F6;
+    display:flex;
+    align-items: center;
+}
+
+.call button {
+    border-color:white;
+    border-radius:8px;
+    background-color: #3882F6;
+    color: white;
+    width: 180%;
+}
+
+.text {
+    color:white;
+    display:flex;
+    flex-direction: column;
+    margin-right:auto;
+}
+
+.text p {
+    margin:0;
+}
+
+
+
+.footer {
+    padding:3%;
+    color:white;
+    text-align: center;
+    background-color: #1F2937;
 }
